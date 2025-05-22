@@ -22,7 +22,7 @@ const About = () => {
               Empowering Students with AI Knowledge
             </h2>
             <p className="text-gray-300 mb-6 text-lg">
-              Artificial Intelligence (AI) is reshaping the world, and students who learn AI skills today will become the leaders of tomorrow. Our course, <span className="text-blue-400">AI & Prompt Engineering for Students (Ages 13-17)</span>, is designed to equip young minds with the tools to understand, create, and innovate using AI.
+              Artificial Intelligence (AI) is reshaping the world, and students who learn AI skills today will become the leaders of tomorrow. Our course, <span className="text-blue-400">AI & Prompt Engineering for Students (Ages 6-10)</span>, is designed to equip young minds with the tools to understand, create, and innovate using AI.
             </p>
           </div>
         </div>
@@ -114,8 +114,8 @@ const About = () => {
             <div className="space-y-3 text-gray-300">
               <p>📞 +91 9347979195</p>
               <p>📧 aialphbts@gmail.com</p>
-              <p>🌍 reallygreatsite.com</p>
-              <p>📍 Tejashree Apartment, Gachibowli, Hyderabad</p>
+              <p>🌍 www.aialphabets.in</p>
+              <p>📍 Prem Chander Nilayam, DLF Road, Gachibowli,Hyderabad</p>
             </div>
             <div className="mt-6 text-blue-400 italic">
               "AI is the number one job of the future" - World Economic Forum

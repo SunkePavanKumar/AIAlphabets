@@ -4,7 +4,7 @@ import { FaLaptopCode, FaBrain, FaProjectDiagram } from 'react-icons/fa'
 const features = [
   {
     icon: <FaLaptopCode className="text-indigo-600 w-12 h-12" />,
-    title: "Interactive Coding",
+    title: "Interactive Learning",
     description: "Hands-on coding exercises that help you understand AI concepts through real-world projects."
   },
   {

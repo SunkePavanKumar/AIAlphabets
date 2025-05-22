@@ -34,40 +34,60 @@ const SkillPathCard = ({ title, description, features, duration, icon }) => {
 const Courses = () => {
   const learningPaths = [
     {
-      title: "AI Foundations",
-      description: "Master core concepts of artificial intelligence and machine learning",
+      title: "AI Foundations for School Kids",
+      description: "Introduce core AI concepts in a fun, engaging way with cartoons, stories, and projects.",
       duration: "6 Weeks",
       icon: <FaBrain />,
       features: [
-        "History of AI Evolution",
-        "Neural Networks Basics",
-        "Ethical AI Principles",
-        "ML Algorithms Overview"
+        "What is AI? (With games and examples)",
+        "Types of AI: Narrow vs General (via cartoons)",
+        "How AI Learns: Training, Data, and Feedback Loops",
+        "Friendly AI Tools for Kids (ChatGPT, Teachable Machine)",
+        "AI in Everyday Life (smartphones, games, school apps)",
+        "Responsible AI Use: Privacy, Safety & Kindness"
       ]
     },
     {
-      title: "Prompt Engineering",
-      description: "Craft effective prompts for AI systems like ChatGPT and DeepSeek",
+      title: "GenAI & Prompt Engineering for School Teachers",
+      description: "Equip educators to integrate AI into teaching and assessments.",
       duration: "4 Weeks",
       icon: <FaCode />,
       features: [
-        "Natural Language Processing",
-        "Contextual Prompt Design",
-        "Multi-modal Prompts",
-        "Optimization Techniques"
+        "Introduction to Generative AI & ChatGPT",
+        "Creating Lesson Plans with AI (text, image, quiz generation)",
+        "Crafting Prompts for Teaching, Grading & Doubt Clarification",
+        "Tools for Visual Teaching Aids: DALL·E, DeepSeek, Canva AI",
+        "Ethics & Classroom Safety Guidelines",
+        "GenAI in Assessments & Report Making"
       ]
     },
     {
-      title: "AI Project Lab",
-      description: "Build real-world AI applications from concept to deployment",
-      duration: "8 Weeks",
+      title: "GenAI for Self-Preparation (Students, UPSC, NEET, etc.)",
+      description: "Use AI tools to prepare smarter, faster, and better.",
+      duration: "4 Weeks",
       icon: <FaProjectDiagram />,
       features: [
-        "End-to-End Project Development",
-        "API Integration",
-        "Model Training & Tuning",
-        "Presentation & Documentation"
+        "AI Study Buddy: Explaining Concepts, MCQs, and Flashcards",
+        "Note Summarization & Mind Map Generation",
+        "Prompting for Mock Test Generation & Evaluation",
+        "Organizing Study Schedules with AI",
+        "Voice to Notes, Image to Summary Tools", 
+        "Real-time Q&A Practice with ChatGPT, DeepSeek, Gemini"
       ]
+    },
+    {
+       title : "GenAI for Workplaces",
+       description : "Learn how to streamline workflows, reports, and creativity using GenAI tools.",
+       duration : "6 Weeks",
+       icon : <FaComments />,
+       features : [
+        "ChatGPT for Emails, Memos, and Presentations",
+        "Automating Research & Reports with AI",
+        "Prompt Engineering for HR, Sales, and Marketing",
+        "GenAI for Data Analysis: Excel + AI",
+        "Visual Design: AI tools for banners, decks, product ideas",
+        "Responsible AI Use: Confidentiality, Bias & Accuracy"
+       ]
     }
   ];
 

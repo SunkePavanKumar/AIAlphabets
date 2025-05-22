@@ -18,7 +18,7 @@ const Home = () => {
     "Ethical AI Practices",
     "Real-World Project Development",
     "AI-Powered Problem Solving",
-    "Industry Tool Proficiency"
+    "Creative Tool Proficiency"
   ]
 
   return (
@@ -89,12 +89,12 @@ const Home = () => {
             Graduates gain skills for high-demand roles like AI Specialist ($200k+), Prompt Engineer, and Machine Learning Developer
           </p>
           
-          <motion.div 
+          {/* <motion.div 
             whileHover={{ scale: 1.02 }}
             className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 px-8 rounded-full shadow-2xl cursor-pointer"
           >
             Explore Career Opportunities →
-          </motion.div>
+          </motion.div> */}
         </div>
       </section>
 
@@ -102,27 +102,72 @@ const Home = () => {
       <section className="py-20 bg-gray-900/50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-purple-300 bg-clip-text text-transparent">
-            Student Success Stories
+            What People Say About AI
           </h2>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[1, 2, 3].map((item) => (
-              <motion.div 
-                key={item}
-                whileHover={{ scale: 1.02 }}
-                className="bg-gray-800/50 p-8 rounded-2xl border border-white/10"
-              >
-                <p className="text-gray-300 mb-4">
-                  "This course transformed how I approach problem-solving. I've built 3 AI projects already!"
-                </p>
-                <div className="flex items-center">
-                  <div className="w-12 h-12 bg-purple-400/20 rounded-full mr-4"></div>
-                  <div>
-                    <h4 className="text-white font-semibold">Sarah K.</h4>
-                    <p className="text-gray-400 text-sm">Age 15, Hyderabad</p>
-                  </div>
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8">
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="bg-gray-800/50 p-8 rounded-2xl border border-white/10"
+            >
+              <p className="text-gray-300 mb-4 italic">
+                "AI is the defining technology of our time. Those who understand how to use it will shape the future."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-purple-400/20 rounded-full mr-4"></div>
+                <div>
+                  <h4 className="text-white font-semibold">Satya Nadella</h4>
+                  <p className="text-gray-400 text-sm">CEO, Microsoft</p>
                 </div>
-              </motion.div>
-            ))}
+              </div>
+            </motion.div>
+
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="bg-gray-800/50 p-8 rounded-2xl border border-white/10"
+            >
+              <p className="text-gray-300 mb-4 italic">
+                "AI is more profound than electricity or fire. Learning to work with it is not optional—it's essential."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-purple-400/20 rounded-full mr-4"></div>
+                <div>
+                  <h4 className="text-white font-semibold">Sundar Pichai</h4>
+                  <p className="text-gray-400 text-sm">CEO, Google</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="bg-gray-800/50 p-8 rounded-2xl border border-white/10"
+            >
+              <p className="text-gray-300 mb-4 italic">
+                "If we want AI to serve humanity, we must first teach humanity how to understand AI."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-purple-400/20 rounded-full mr-4"></div>
+                <div>
+                  <h4 className="text-white font-semibold">Fei-Fei Li</h4>
+                  <p className="text-gray-400 text-sm">AI Pioneer, Stanford Professor</p>
+                </div>
+              </div>
+            </motion.div>
+
+            <motion.div 
+              whileHover={{ scale: 1.02 }}
+              className="bg-gray-800/50 p-8 rounded-2xl border border-white/10"
+            >
+              <p className="text-gray-300 mb-4 italic">
+                "Just as the steam engine transformed every industry, so will AI—and those who know how to use it will lead."
+              </p>
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-purple-400/20 rounded-full mr-4"></div>
+                <div>
+                  <h4 className="text-white font-semibold">Andrew Ng</h4>
+                  <p className="text-gray-400 text-sm">Founder, DeepLearning.ai</p>
+                </div>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -137,12 +182,15 @@ const Home = () => {
             Limited seats available for our next cohort. Transform your potential into AI expertise.
           </p>
           <div className="flex flex-col md:flex-row justify-center gap-6">
-            <motion.button
+            <motion.a
+              href="https://forms.gle/G5SkmGm8QrB6u2H26"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
-              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 px-8 rounded-full shadow-2xl"
+              className="bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 px-8 rounded-full shadow-2xl cursor-pointer"
             >
               Enroll Now
-            </motion.button>
+            </motion.a>
             <motion.button
               whileHover={{ scale: 1.05 }}
               className="border border-purple-400 text-purple-300 font-semibold py-4 px-8 rounded-full"

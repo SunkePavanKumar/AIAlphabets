@@ -28,12 +28,14 @@ const HeroSection = () => {
           <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
             Master AI & Prompt Engineering through immersive learning experiences designed for Gen Z innovators.
           </p>
-          <Link
-            to="/courses"
+          <a
+            href="https://forms.gle/G5SkmGm8QrB6u2H26"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold py-4 px-8 rounded-full shadow-2xl hover:scale-105 transition-transform duration-300"
           >
             Start AI Journey →
-          </Link>
+          </a>
         </div>
       </motion.div>
     </section>

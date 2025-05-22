@@ -83,15 +83,14 @@ const Contact = () => {
                     <FaGlobe className="text-purple-400 text-xl" />
                     <div>
                       <p className="text-gray-400 text-sm">Website</p>
-                      <p className="text-gray-100">www.reallygreatsite.com</p>
+                      <p className="text-gray-100">www.aialphabets.in</p>
                     </div>
                   </div>
-                  
                   <div className="flex items-center space-x-4">
                     <FaMapMarker className="text-purple-400 text-xl" />
                     <div>
                       <p className="text-gray-400 text-sm">Address</p>
-                      <p className="text-gray-100">Tejashree Apartment, Gachibowli, Hyderabad</p>
+                      <p className="text-gray-100">Prem Chander Nilayam, DLF Road, Gachibowli,Hyderabad</p>
                     </div>
                   </div>
                 </div>
